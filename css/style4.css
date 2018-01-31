@@ -1,0 +1,27 @@
+body{
+	background-color: gray;
+}
+img{
+	width: 300px;
+	height: 400px;
+}
+.grid_9 h1{
+	margin-top:20px;
+}
+.grid_9 img{
+	float: right;
+}
+.grid_3{
+	background-color: lightgray;
+	position: fixed;
+}
+.grid_3 li{
+	list-style-type: none;
+	padding: 10px;
+	margin: 10px 20px;
+}
+.grid_3 li a{
+	text-decoration: none;
+	font-size:20px;
+	font-style: italic;
+}

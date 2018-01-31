@@ -10,8 +10,10 @@
 	padding: 25px;
 }
 
-#home{
-	height: 30px;
+
+img{
+	width: 300px;
+	height: 400px;
 }
 hr{
 
@@ -35,20 +37,14 @@ hr{
 	font-size: 40px;
 	line-height: 40px;
 }
-.preview{
+.nested{
 	float: right;
 	width: 600px;
 }
-.meta {
-	padding-left: 0;
+.nave{
+	padding-bottom: 10px;
 }
-.meta a{
-	font-size: 14px;
-	text-decoration: none;
-	font-size: 15px;
-	font-family: sans-serif;
-	font-style: italic;
-}
+
 .meta li{
 	display: inline;
 	color:black;
@@ -63,6 +59,9 @@ hr{
 .meta li a{
 	text-decoration: none;
 	color: black;
+	font-style: italic;
+	font-family: sans-serif;
+    font-size: 15px;
 }
 .meta li a:hover{
 	text-decoration: underline;
@@ -78,11 +77,6 @@ hr{
 .wrap a:hover{
 	text-decoration: underline;
 	color: red;
-}
-.grid_4{
-	
-	height: 100px;
-	background-color: lightgray;
 }
 .box{
 	text-align: right;
