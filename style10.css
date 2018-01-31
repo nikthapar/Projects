@@ -1,0 +1,35 @@
+body{
+	background-color: gray;
+}
+.container{
+	background-color: lightgray;
+}
+.grid_8{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.grid_4{
+	background-color: red;
+}
+.inline-post{
+	display: inline-block;
+} 
+.nav1 li{
+	display: inline;
+	color: black;
+} 
+.nav1 li:after{
+	content:'-';
+	padding: 0px 5px;
+}
+.nav1 li:last-child:after{
+	content: none;
+}
+.nav1 li a{
+	text-decoration: none;
+	color:black;
+}
+.nav1 li a:hover{
+	text-decoration: underline;
+	color: red;
+}
